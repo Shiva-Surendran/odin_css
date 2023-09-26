@@ -1,0 +1,33 @@
+#transition-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+#but {
+  border-radius: 8px;
+  border: none;
+ 
+  color: white;
+  font-size: 18px;
+  padding: 16px 24px;
+  text-align: center;
+}
+
+#but:hover {
+  transform: scale(5)
+}
+
+#but {
+  transition: transform 5s ease-in-out;
+}
+
+#but:hover {
+    background-color: #ffffff;
+    color: #4c9ed9;
+    border:1px solid #111;
+}
